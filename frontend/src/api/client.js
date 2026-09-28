@@ -1,6 +1,6 @@
 // ResearchLens API Client
 
-const API_BASE = '/api';
+const API_BASE = 'https://researchlens-777q.onrender.com/api';
 
 export async function apiRequest(endpoint, options = {}) {
   const token = localStorage.getItem('researchlens_token');
